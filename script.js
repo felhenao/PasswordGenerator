@@ -31,8 +31,7 @@ form.addEventListener('submit', e => {
     passwordDisplay.innerText = password;
 })
 
-function generatePassword(characterAmount, incudeUppercase, includeNumbers, includeSymbols) {
- console.log(LOWERCASE_CHAR_CODES);
+function generatePassword(characterAmount, includeUppercase, includeNumbers, includeSymbols) {
  let charCodes = LOWERCASE_CHAR_CODES;
  if (includeUppercase) charCodes = charCodes.concat
  (UPPERCASE_CHAR_CODES);
