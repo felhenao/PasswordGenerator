@@ -6,30 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Password Generator</title>
+    <title>%</title>
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Password Generator</h1>
-        <h3 class="password-display" id="passwordDisplay">password</h3>
+        <h3 class="password-display" id="passwordDisplay"></h3>
         <form class="form" id='passwordGeneratorForm'>
-            <label for"characterAmountNumber">Number of Characters</label>
+            <label for"characterAmountNumber"></label>
 
             <div class="character-amount-container">
                 <input type="range" min="1" max="50" value="10" id="characterAmountRange">
-                <input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+                <input class="number-input" type="number" min="1" max="50" value="25" id="characterAmountNumber">
             </div>
 
-            <label for="includeUppercase">Include Uppercase</label>
-            <input type="checkbox" id="includeUppercase">
+            <label for="includeUppercase">U</label>
+            <input type="checkbox" checked="checked" id="includeUppercase">
 
-            <label for="includeNumbers">Include Numbers</label>
-            <input type="checkbox" id="includeNumbers">
+            <label for="includeNumbers">N</label>
+            <input type="checkbox" checked="checked" id="includeNumbers">
 
-            <label for="includeSymbols">Include Symbols</label>
-            <input type="checkbox" id="includeSymbols">
+            <label for="includeSymbols">S</label>
+            <input type="checkbox" checked="checked" id="includeSymbols">
 
-            <button type="submit" class="btn">Generate Password</button>
+            <button type="submit" class="btn"></button>
         </form>
     </div>
     
